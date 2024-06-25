@@ -2,7 +2,7 @@
 
 This project is designed to predict student progression outcomes at the end of each academic year based on the number of credits they have achieved in pass, defer, and fail categories. The program validates user inputs, calculates progression outcomes, and provides a graphical representation using a histogram.
 
-# Features
+## Features
 
 - **Data Loading**: Load data from CSV files.
 - **Data Preprocessing**: Handle missing values and normalize numerical features.
@@ -13,7 +13,7 @@ This project is designed to predict student progression outcomes at the end of e
 - **Progression Outcome Calculation**: Determines if a student progresses, trails, retrieves modules, or is excluded based on their credits.
 - **Histogram Display**: Uses the `graphics.py` module to create a histogram of the progression outcomes.
 
-# Installation
+## Installation
 
 To use this project, you'll need to have Python installed along with the following packages:
 
@@ -22,7 +22,7 @@ To use this project, you'll need to have Python installed along with the followi
 - `scikit-learn`
 - `joblib`
 
-# Functions
+## Functions
 
 - `load_data(file_path)`: Loads data from a CSV file.
 - `preprocess_data(df)`: Fills missing values and normalizes numerical features.
@@ -33,7 +33,7 @@ To use this project, you'll need to have Python installed along with the followi
 - `save_model(model, file_path)`: Saves the trained model to a file.
 - `load_model(file_path)`: Loads a trained model from a file.
 
-# Example Outputs
+## Example Outputs
 
 ### Part 1
 ```
